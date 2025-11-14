@@ -31,9 +31,7 @@ frases-aleatorias/
 ---
 
 ## 🖼️ Preview do projeto
-*(Adicione uma imagem quando quiser)*
-Você pode usar:
-`![Preview](./screenshot.png)`
+![Preview](./screenshot.png)
 
 ---
 
