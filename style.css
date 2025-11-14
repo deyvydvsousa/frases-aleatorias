@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Corpo com tema escuro */
+body {
+  background-color: #0f1116;
+  color: #eaeaea;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Cartão */
+.card {
+  background: #1b1e26;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Título */
+.title {
+  font-size: 1.8rem;
+  color: #9a8cff;
+  margin-bottom: 20px;
+}
+
+/* Texto da frase */
+.quote-text {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #fff;
+  line-height: 1.6;
+  transition: opacity 0.3s ease;
+}
+
+/* Controles */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Botões */
+button {
+  background-color: #9a8cff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #7f6aff;
+  transform: scale(1.05);
+}
+
+button.secondary {
+  background-color: #333;
+  color: #aaa;
+}
+
+button.secondary:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Dica do teclado */
+.small {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+kbd {
+  background: #222;
+  color: #9a8cff;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
